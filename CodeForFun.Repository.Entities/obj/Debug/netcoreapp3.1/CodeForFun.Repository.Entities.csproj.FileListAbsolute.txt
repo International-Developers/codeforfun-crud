@@ -42,3 +42,14 @@ C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Deb
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.csproj.CopyComplete
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.dll
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\bin\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.deps.json
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\bin\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\bin\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\bin\Debug\netcoreapp3.1\CodeForFun.Core.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\bin\Debug\netcoreapp3.1\CodeForFun.Core.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.csprojAssemblyReference.cache
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.AssemblyInfoInputs.cache
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.AssemblyInfo.cs
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.csproj.CopyComplete
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.Entities\obj\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.pdb

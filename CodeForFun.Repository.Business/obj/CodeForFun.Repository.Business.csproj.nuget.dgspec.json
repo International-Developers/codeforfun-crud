@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj": {}
+    "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj": {
+    "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
+        "projectUniqueName": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
         "projectName": "CodeForFun.Core",
-        "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
-        "packagesPath": "C:\\Users\\Yolo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\obj\\",
+        "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
+        "packagesPath": "C:\\Users\\balaji\\.nuget\\packages\\",
+        "outputPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Yolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\balaji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,20 +62,17 @@
         }
       }
     },
-    "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj": {
+    "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
+        "projectUniqueName": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
         "projectName": "CodeForFun.Repository.Business",
-        "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
-        "packagesPath": "C:\\Users\\Yolo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\obj\\",
+        "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
+        "packagesPath": "C:\\Users\\balaji\\.nuget\\packages\\",
+        "outputPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Yolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\balaji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,11 +85,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj"
+              "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj": {
+                "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj"
               },
-              "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
-                "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj"
+              "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
+                "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj"
               }
             }
           }
@@ -130,20 +124,17 @@
         }
       }
     },
-    "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj": {
+    "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj",
+        "projectUniqueName": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj",
         "projectName": "CodeForFun.Repository.DataAccess",
-        "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Yolo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\obj\\",
+        "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\balaji\\.nuget\\packages\\",
+        "outputPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Yolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\balaji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,11 +147,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj": {
-                "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj"
+              "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj": {
+                "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj"
               },
-              "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
-                "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj"
+              "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
+                "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj"
               }
             }
           }
@@ -205,20 +196,17 @@
         }
       }
     },
-    "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
+    "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj",
+        "projectUniqueName": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj",
         "projectName": "CodeForFun.Repository.Entities",
-        "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj",
-        "packagesPath": "C:\\Users\\Yolo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\obj\\",
+        "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj",
+        "packagesPath": "C:\\Users\\balaji\\.nuget\\packages\\",
+        "outputPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Yolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\balaji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -231,8 +219,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj": {
-                "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj"
+              "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj": {
+                "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj"
               }
             }
           }

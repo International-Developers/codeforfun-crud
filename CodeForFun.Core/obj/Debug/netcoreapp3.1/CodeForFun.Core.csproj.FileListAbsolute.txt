@@ -29,3 +29,11 @@ C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.dll
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.pdb
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.csprojAssemblyReference.cache
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\bin\Debug\netcoreapp3.1\CodeForFun.Core.deps.json
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\bin\Debug\netcoreapp3.1\CodeForFun.Core.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\bin\Debug\netcoreapp3.1\CodeForFun.Core.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.csprojAssemblyReference.cache
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.AssemblyInfoInputs.cache
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.AssemblyInfo.cs
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Core\obj\Debug\netcoreapp3.1\CodeForFun.Core.pdb

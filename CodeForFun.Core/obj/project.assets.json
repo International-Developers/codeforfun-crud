@@ -632,23 +632,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yolo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\balaji\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
+      "projectUniqueName": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
       "projectName": "CodeForFun.Core",
-      "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
-      "packagesPath": "C:\\Users\\Yolo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Core\\obj\\",
+      "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\CodeForFun.Core.csproj",
+      "packagesPath": "C:\\Users\\balaji\\.nuget\\packages\\",
+      "outputPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Yolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\balaji\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

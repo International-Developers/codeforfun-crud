@@ -50,3 +50,16 @@ C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\D
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.csproj.CopyComplete
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.dll
 C:\Users\Yolo\source\repos\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\bin\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.deps.json
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\bin\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\bin\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\bin\Debug\netcoreapp3.1\CodeForFun.Core.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\bin\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\bin\Debug\netcoreapp3.1\CodeForFun.Core.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\bin\Debug\netcoreapp3.1\CodeForFun.Repository.Entities.pdb
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.csprojAssemblyReference.cache
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.AssemblyInfoInputs.cache
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.AssemblyInfo.cs
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.csproj.CopyComplete
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.dll
+F:\Emre\codeforfunCRUD\codeforfunCRUD\CodeForFun.Repository.DataAccess\obj\Debug\netcoreapp3.1\CodeForFun.Repository.DataAccess.pdb

@@ -6674,23 +6674,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yolo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\balaji\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
+      "projectUniqueName": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
       "projectName": "CodeForFun.Repository.Business",
-      "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
-      "packagesPath": "C:\\Users\\Yolo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Business\\obj\\",
+      "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\CodeForFun.Repository.Business.csproj",
+      "packagesPath": "C:\\Users\\balaji\\.nuget\\packages\\",
+      "outputPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Business\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Yolo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\balaji\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6703,11 +6699,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj"
+            "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj": {
+              "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.DataAccess\\CodeForFun.Repository.DataAccess.csproj"
             },
-            "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
-              "projectPath": "C:\\Users\\Yolo\\source\\repos\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj"
+            "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj": {
+              "projectPath": "F:\\Emre\\codeforfunCRUD\\codeforfunCRUD\\CodeForFun.Repository.Entities\\CodeForFun.Repository.Entities.csproj"
             }
           }
         }
@@ -6747,7 +6743,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"EntityFramework 6.1.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'EntityFramework 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -6757,7 +6753,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Microsoft.AspNet.Identity.Core 2.2.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -6767,7 +6763,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Microsoft.AspNet.Identity.EntityFramework 2.2.3\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
@@ -6777,7 +6773,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Microsoft.AspNet.Providers.Core 2.0.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'Microsoft.AspNet.Providers.Core 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Providers.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

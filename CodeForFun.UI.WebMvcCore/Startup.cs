@@ -31,7 +31,9 @@ namespace CodeForFun.UI.WebMvcCore
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            StaticConfig = configuration;
         }
+        public static IConfiguration StaticConfig { get; private set; }
 
         public IConfiguration Configuration { get; }
 
@@ -46,10 +48,9 @@ namespace CodeForFun.UI.WebMvcCore
             IMapper map = mapping.CreateMapper();
             services.AddSingleton(map);
 
-
             services.AddDbContext<RepositoryContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
