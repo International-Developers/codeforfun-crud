@@ -1,27 +1,12 @@
 ﻿using CodeForFun.Repository.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
-using IdentityServer4.EntityFramework.Options;
-
-using Microsoft.Extensions.Options;
-using CodeForFun.UI.WebMvcCore.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Newtonsoft.Json.Linq;
-using System.IO;
-using System;
-using Microsoft.Extensions.Configuration;
-using Microsoft.AspNetCore.Hosting;
 
 namespace CodeForFun.Repository.DataAccess.DbContexts
 {
 	public partial class RepositoryContext : DbContext
 	{
-		private readonly IWebHostEnvironment _env;
-		IConfiguration _iconfiguration;
-		public RepositoryContext(DbContextOptions<RepositoryContext> options, IWebHostEnvironment env, IConfiguration iconfiguration) : base(options)
+		public RepositoryContext(DbContextOptions<RepositoryContext> options) : base(options)
 		{
-			_env = env;
-			_iconfiguration = iconfiguration;
 
 		}
 		public RepositoryContext()
@@ -30,20 +15,15 @@ namespace CodeForFun.Repository.DataAccess.DbContexts
 		}
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			IConfigurationBuilder configurationBuilder = new ConfigurationBuilder().SetBasePath(_env.ContentRootPath).AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-
-			IConfigurationRoot configurationRoot = configurationBuilder.Build();
-			var conn = configurationRoot.GetConnectionString("DefaultConnection");
-			//string connString = Startup.StaticConfig.GetConnectionString("DefaultConnection");
-
-			optionsBuilder.UseSqlServer(conn);
+			optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=code-for-fun-db;Trusted_Connection=True");
 		}
+
 		public DbSet<User> Users { get; set; }
 		public DbSet<Category> Categories { get; set; }
 		public DbSet<Customer> Customers { get; set; }
 		public DbSet<Product> Products { get; set; }
-		public DbSet<ProductDetail> ProductDetails { get; set; }
-		public DbSet<ProductsToCustomer> ProductsToCustomers { get; set; }
+		public DbSet<ProductDetails> ProductDetails { get; set; }
+		public DbSet<ProductsToCustomers> ProductsToCustomers { get; set; }
 
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -79,10 +59,10 @@ namespace CodeForFun.Repository.DataAccess.DbContexts
 
 				entity.HasOne(x => x.ProductDetail)
 				.WithOne(x => x.IdNavigation)
-				.HasForeignKey<ProductDetail>(x => x.Id);
+				.HasForeignKey<ProductDetails>(x => x.Id);
 			});
 
-			modelBuilder.Entity<ProductDetail>(entity =>
+			modelBuilder.Entity<ProductDetails>(entity =>
 			{
 				entity.Property(e => e.Id).ValueGeneratedNever();
 
@@ -90,12 +70,12 @@ namespace CodeForFun.Repository.DataAccess.DbContexts
 
 				entity.HasOne(d => d.IdNavigation)
 							.WithOne(p => p.ProductDetail)
-							.HasForeignKey<ProductDetail>(d => d.Id)
+							.HasForeignKey<ProductDetails>(d => d.Id)
 							.OnDelete(DeleteBehavior.ClientSetNull)
 							.HasConstraintName("FK_ProductDetails_Products");
 			});
 
-			modelBuilder.Entity<ProductsToCustomer>(entity =>
+			modelBuilder.Entity<ProductsToCustomers>(entity =>
 			{
 				entity.HasKey(e => new
 				{

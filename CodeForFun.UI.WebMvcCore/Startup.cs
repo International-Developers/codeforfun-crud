@@ -31,9 +31,7 @@ namespace CodeForFun.UI.WebMvcCore
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            StaticConfig = configuration;
         }
-        public static IConfiguration StaticConfig { get; private set; }
 
         public IConfiguration Configuration { get; }
 
@@ -48,9 +46,10 @@ namespace CodeForFun.UI.WebMvcCore
             IMapper map = mapping.CreateMapper();
             services.AddSingleton(map);
 
+
             services.AddDbContext<RepositoryContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            
+
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -92,7 +91,7 @@ namespace CodeForFun.UI.WebMvcCore
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<IAuth, AuthManager>();
-            services.AddTransient<IProductsToCustomer, ProductsToCustomerManager>();
+            services.AddTransient<Repository.Business.Abstract.Services.IProductsToCustomer, ProductsToCustomerManager>();
             services.AddScoped<IProductDetailsService, ProductDetailsManager>();
         }
 
