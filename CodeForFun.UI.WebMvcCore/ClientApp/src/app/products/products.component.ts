@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../services/product.service';
 import { OrderService } from '../services/order.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-products',
@@ -17,7 +18,7 @@ export class ProductsComponent implements OnInit {
   categoryName;
   productForEditOrCreate: any = {};
 
-  constructor(private productService: ProductService, private orderService: OrderService) {
+  constructor(private productService: ProductService, private orderService: OrderService, private router: Router) {
   }
 
   ngOnInit() {
@@ -31,7 +32,6 @@ export class ProductsComponent implements OnInit {
   }
 
   editProduct() {
-    console.log(this.productForEditOrCreate);
     this.productService.edit(this.productForEditOrCreate).subscribe(x => {
       this.editMode = !this.editMode;
       this.fetch();
@@ -67,7 +67,6 @@ export class ProductsComponent implements OnInit {
   }
 
   deleteProduct(productId) {
-    console.log(productId);
     this.productService.delete(productId).subscribe(x => {
       this.fetch();
     })
@@ -86,11 +85,14 @@ export class ProductsComponent implements OnInit {
 
   createProduct() {
     this.productForEditOrCreate.categoryName = this.categoryName;
-
     this.productService.add(this.productForEditOrCreate).subscribe(x => {
       this.fetch();
       this.creatingMode = !this.creatingMode;
     })
+  }
+
+  createProductDetail() {
+    this.router.navigate['productdetails'];
   }
 }
 
